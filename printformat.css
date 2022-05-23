@@ -1,0 +1,28 @@
+body {
+	background-color: #FFF;
+	background-image: none;
+	}
+
+.delete, .button, #head, #actions {
+	display: none;
+	}
+	
+#main {
+	border: none;
+	height: auto;
+
+	}
+	
+textarea {
+	background: #FFF;
+	}
+	
+input {
+	background: #FFF;
+	}
+	
+table .tableBanner {
+	color: white !important;
+	background: black !important;
+	}
+	
