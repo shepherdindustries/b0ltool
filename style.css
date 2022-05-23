@@ -6,7 +6,7 @@ Universal
 #main {
 	font-size: 100%;
 	color: #000;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif !important;
 	}
 	
 .left {
@@ -27,18 +27,18 @@ input, textarea {
 	border: none;
 	outline: none;
 	background: transparent;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif !important;
 	}
 	
 p	{
-	font-size: 1em;
+	font-size: 1em !important;
 	padding: 2px 0;
 	}
 	
 h2 {
 	margin-bottom: 5px;
 	color: #333;
-	font-size: 1.1em;
+	font-size: 1.1em !important;
 	font-weight: bold;
 	}
 	
@@ -72,20 +72,6 @@ input:focus, textarea:focus {
 	border: none;
 	}
 
-.button {
-	display: inline;
-	padding: 4px 8px; 
-	background-color: #008cba; 
-	color: #FFF;
-    font: .95em Helvetica; 
-    text-decoration: none;
-    }
-    
-.button:hover { 
-	 color: #FFF;
-	 background-color: #006f94;
-	}
-	
 .green {
 	background-color: #4CAF50;
 	color: #FFF;
@@ -95,86 +81,7 @@ input:focus, textarea:focus {
 .green:hover {
 	background-color: #46a049; 
 	}
-	
-/*__________________________________________________Head
-Head
-*/
 
-#head, #how-to {
-	margin: 0 auto;
-	padding-top: 10px;
-	margin-bottom: 20px;
-	width: 864px;
-	}
-	
-h1 {
-	padding-bottom: 10px;
-	color: #333;
-	font-weight: normal;
-	font-size: 1.5em;
-	display:inline;
-	}
-	
-h1 a {
-	text-decoration: none;
-	color: #333;
-	}
-	
-a.nav-link {
-	text-decoration: none;
-	color: #333;
-	}
-	
-#about {
-	margin-top: 30px;
-	}	
-	
-#about-head {
-	margin-bottom: 10px;
-	}
-	
-h3 {
-	color: #333;
-	font-size: 1.4em;
-	display: inline;
-	}
-	
-#about {
-	padding: 5px;
-	background: #EEE;
-	color: #333;
-	border: 1px solid #666;
-	}
-	
-#how-to {
-	padding: 5px;
-	background: #FFF;
-	color: #333;
-	border: 1px solid #666;
-	}
-	
-#about p, #how-to p {
-	padding-bottom: 10px;
-	}
-
-/*__________________________________________________Banner Ad
-Banner AD
-*/
-
-#banner-ad {
-	margin: 20px 0px;
-}
-
-/*__________________________________________________Actions
-Actions
-*/
-
-#actions {
-	margin: 0 auto;
-	padding-top: 10px;
-	margin-bottom: -20px;
-	width: 864px;
-	}
 
 /*__________________________________________________Main
 Main
@@ -188,8 +95,7 @@ Main
 	border: 1px solid #808080;
 	}
 	
-/*__________________________________________________Invoice
-Invoice
+/*__________________________________________________BOL
 */
 
 form p, form span {
