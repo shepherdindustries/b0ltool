@@ -1,11 +1,12 @@
 html body * {
- display:none;
+ visibility: hidden;
 }
 
 .main {
  display:block !important;
 border: none;
 height: auto;
+visibility: visible;
 }
 
 .delete, .button, #head, #actions {
