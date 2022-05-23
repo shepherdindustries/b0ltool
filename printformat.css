@@ -1,16 +1,15 @@
-body {
-	background-color: #FFF;
-	background-image: none;
-	}
+html body * {
+ display:none;
+}
+
+#main {
+ display:block;
+border: none;
+height: auto;
+}
 
 .delete, .button, #head, #actions {
 	display: none;
-	}
-	
-#main {
-	border: none;
-	height: auto;
-
 	}
 	
 textarea {
